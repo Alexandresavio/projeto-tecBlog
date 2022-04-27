@@ -13,10 +13,10 @@ body{
  * ***layout***
  */
 #area-cabecalho{
-    border: 1px solid black;
     background: #f7b600;
     padding: 15px;
     text-align: center;
+
 }
 
 #area-logo{
@@ -25,6 +25,35 @@ body{
 
 #area-menu, #area-menu{
     padding: 10px;
+}
+
+#area-principal{
+    width: 920px;
+    margin: 0px auto;
+}
+
+#area-postagens{
+    background: orange;
+    width: 660px;
+    float: left;
+}
+#area-lateral{
+    background: orange;
+    width: 240px;
+    float: right;
+}
+
+.post{
+    padding: 20px;
+    margin-bottom: 20px;
+    background:white;
+}
+
+#area-rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
 }
 
 /*
